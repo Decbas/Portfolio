@@ -2685,7 +2685,7 @@ input, select, textarea {
 			}
 
 			ul.contact li:before {
-				border-radius: 100%;
+				border-radius: 0%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				display: inline-block;
 				font-size: 0.8em;
@@ -3816,10 +3816,10 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .inner {
-				-moz-flex-direction: row;
-				-webkit-flex-direction: row;
-				-ms-flex-direction: row;
-				flex-direction: row;
+				-moz-flex-direction: row-reverse;
+				-webkit-flex-direction: row-reverse;
+				-ms-flex-direction: row-reverse;
+				flex-direction: row-reverse;
 				text-align: left;
 			}
 
