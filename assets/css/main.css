@@ -2685,7 +2685,7 @@ input, select, textarea {
 			}
 
 			ul.contact li:before {
-				border-radius: 0%;
+				border-radius: 0;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				display: inline-block;
 				font-size: 0.8em;
